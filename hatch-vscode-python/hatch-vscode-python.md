@@ -23,11 +23,10 @@ attribution:
   - {
       author: Microsoft Corporation,
       author-site: "https://www.microsoft.com/",
-      license: Public
-        domain,
+      license: MIT,
       license-url: "https://github.com/pypa/hatch/blob/master/LICENSE.txt",
       permalink: "https://raw.githubusercontent.com/pypa/hatch/master/docs/assets/images/logo.svg",
-      permalink-date: 2019-08-02,
+      permalink-date: 2024-01-29,
       name: Hatch Logo,
     }
 ---
