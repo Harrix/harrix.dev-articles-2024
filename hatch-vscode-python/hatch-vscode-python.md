@@ -7,8 +7,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2023/blob/main/hatch-vscode-python/hatch-vscode-python.md
-permalink: https://harrix.dev/ru/blog/2023/hatch-vscode-python/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2023/blob/main/hatch-vscode-python/hatch-vscode-python.md
+permalink: https://harrix.dev/ru/articles/2023/hatch-vscode-python/
 lang: ru
 attribution:
   - {
@@ -39,9 +39,9 @@ attribution:
 
 ## Установка программы
 
-Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/blog/2021/install-python/ -->.
+Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/articles/2021/install-python/ -->.
 
-Установите VSCode. Есть статья по его простой установке [Установка Visual Studio Code (простая)](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-vscode-simple/install-vscode-simple.md) <!-- https://harrix.dev/ru/blog/2021/install-vscode-simple/ -->. И есть статья с подробной и хардкорной настройкой [Установка Visual Studio Code](/blog/2022/install-vscode/).
+Установите VSCode. Есть статья по его простой установке [Установка Visual Studio Code (простая)](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-vscode-simple/install-vscode-simple.md) <!-- https://harrix.dev/ru/articles/2021/install-vscode-simple/ -->. И есть статья с подробной и хардкорной настройкой [Установка Visual Studio Code](/blog/2022/install-vscode/).
 
 После установите расширение Python в VScode:
 

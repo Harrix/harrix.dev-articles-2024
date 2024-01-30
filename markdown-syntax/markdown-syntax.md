@@ -8,8 +8,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2022/blob/main/markdown-syntax/markdown-syntax.md
-permalink: https://harrix.dev/ru/blog/2022/markdown-syntax/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2022/blob/main/markdown-syntax/markdown-syntax.md
+permalink: https://harrix.dev/ru/articles/2022/markdown-syntax/
 lang: ru
 attribution:
   - {
