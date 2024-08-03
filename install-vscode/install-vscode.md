@@ -7,7 +7,7 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-articles-2022/blob/main/install-vscode/install-vscode.md
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2024/blob/main/install-vscode/install-vscode.md
 permalink: https://harrix.dev/ru/articles/2022/install-vscode/
 lang: ru
 attribution:
