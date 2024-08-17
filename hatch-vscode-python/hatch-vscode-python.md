@@ -83,25 +83,6 @@ _Рисунок 5 — Режим Auto Save_
 
 </details>
 
-## Краткий пересказ
-
-```console
-pip install hatch
-mkdir C:\python_projects\
-cd C:\python_projects\
-hatch new "Test Hatch"
-cd test-hatch
-hatch shell
-```
-
-Создаем файл `src\test-hatch\main.py`:
-
-```py
-
-```
-
-TODO
-
 ## Установка Hatch и создание проекта
 
 Вызываем консоль `Ctrl` → `` ` `` (`Ctrl` → `Ё`), прописываем команду установки Hatch глобально (после ввода команды не забываем нажать `Enter`):
