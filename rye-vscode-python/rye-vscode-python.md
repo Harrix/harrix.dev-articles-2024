@@ -55,7 +55,8 @@ attribution:
 - `rye self update` — обновление самого Rye.
 - `rye sync` — зафиксировать библиотеки и обновить файлы виртуального окружения по `.lock` файлам.
 - `rye sync --update-all` — обновление всех библиотек проекта.
-- `rye sync --update cowsay` — обновление библиотеки.
+- `rye sync --update cowsay` — обновление конкретной библиотеки.
+- `rye remove cowsay` — удаление библиотеки.
 
 ## Ссылки
 
@@ -369,4 +370,10 @@ rye sync --update-all
 
 ```console
 rye sync --update cowsay
+```
+
+Если какой-то пакет вам не нужен, то удаляем так:
+
+```console
+rye remove cowsay
 ```
