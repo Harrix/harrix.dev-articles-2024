@@ -150,7 +150,7 @@ _Рисунок 13 — Инициализация проекта_
 
 Если вы видите ошибку, как на рисунке ниже, то скорее всего вы не перезагрузили VSCode. Закройте и откройте его заново:
 
-![Ошибка при инициализация проекта](img/error.png)
+![Ошибка при инициализация проекта](img/error_01.png)
 
 _Рисунок 14 — Ошибка при инициализация проекта_
 
@@ -265,3 +265,35 @@ cowsay.cow('Hello World')
 ![Запуск кода с установленной библиотекой](img/dependencies_02.png)
 
 _Рисунок 26 — Запуск кода с установленной библиотекой_
+
+Добавим ещё для примера библиотеку matplotlib:
+
+```console
+rye add matplotlib
+```
+
+В `main.py` напишем такой код:
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(-5, 5, 200)
+y = x ** 2
+
+fig, ax = plt.subplots()
+ax.plot(x, y)
+plt.show()
+```
+
+На рабочей Windows всё прошло нормально, но на пустой Windows в Sandbox вышла ошибка:
+
+![Ошибка с matplotlib](img/error_02.png)
+
+_Рисунок 27 — Ошибка с matplotlib_
+
+Пришлось по [инструкции](https://stackoverflow.com/questions/75824703/matplotlib-importerror-dll-load-failed-while-importing-cext) устанавливать `rye add msvc-runtime` и [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist).
+
+```console
+rye add msvc-runtime
+```
