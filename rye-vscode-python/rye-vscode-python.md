@@ -601,6 +601,16 @@ rye pin 3.11
 rye sync
 ```
 
+Аналогично поступаем для обновления текущей версии Python. Например, у вас стоит Python 3.11.8, а вышла версия 3.11.8. Простой команды я не нашел, но можно через тот же путь поступить:
+
+```console
+rye fetch 3.11.9
+rye pin 3.11.9
+rye sync
+```
+
+Посмотреть на последнюю версию Python, на которую вы хотите обновиться можно на сайтах [python.org](https://www.python.org/downloads/windows/) или [python-build-standalone](https://github.com/indygreg/python-build-standalone/releases).
+
 ## Сборка EXE файла
 
 ## Создание пакетов
