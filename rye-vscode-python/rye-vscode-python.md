@@ -2,6 +2,7 @@
 date: 2024-08-24
 categories: [it, programming]
 tags: [Python, VScode]
+download: https://github.com/Harrix/harrix.dev-articles-2024/raw/main/rye-vscode-python/files/test-rye.zip
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
@@ -62,6 +63,7 @@ attribution:
 - `rye sync --update cowsay` — обновление конкретной библиотеки.
 - `rye remove cowsay` — удаление библиотеки.
 - `rye fetch 3.12` + `rye pin 3.12` + `rye sync` — переключает на другую версию Python.
+- `rye add --dev pyinstaller` + `pyinstaller -F src\test_rye\main.py` — генерирует EXE файл.
 
 ## Ссылки
 
@@ -612,6 +614,49 @@ rye sync
 Посмотреть на последнюю версию Python, на которую вы хотите обновиться можно на сайтах [python.org](https://www.python.org/downloads/windows/) или [python-build-standalone](https://github.com/indygreg/python-build-standalone/releases).
 
 ## Сборка EXE файла
+
+Попробуем собрать консольное приложение с таким кодом:
+
+```python
+a = int(input())
+b = int(input())
+print(a + b)
+
+input("Press enter to exit.")
+```
+
+Для этого установим в режиме `--dev` пакет [pyinstaller
+](https://pyinstaller.org/en/stable/):
+
+```console
+rye add --dev pyinstaller
+```
+
+После этого можно запустить pyinstaller:
+
+```console
+pyinstaller -F src\test_rye\main.py
+```
+
+![Генерация EXE файла](img/exe_01.png)
+
+_Рисунок 46 — Генерация EXE файла_
+
+Создаться папка `dist` с файлом `main.exe`.
+
+Запускаем, вводим числа и видим:
+
+![Результат выполнения программы](img/exe_02.png)
+
+_Рисунок 47 — Результат выполнения программы_
+
+С matplotlib тоже всё работает:
+
+![Результат выполнения программы с matplotlib](img/exe_03.png)
+
+_Рисунок 48 — Результат выполнения программы с matplotlib_
+
+Запуск EXE файлов был проверен на пустой Windows 11.
 
 ## Создание пакетов
 
