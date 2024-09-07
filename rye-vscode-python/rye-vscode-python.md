@@ -1,5 +1,5 @@
 ---
-date: 2024-08-24
+date: 2024-09-07
 categories: [it, programming]
 tags: [Python, VScode]
 download: https://github.com/Harrix/harrix.dev-articles-2024/raw/main/rye-vscode-python/files/test-rye.zip
@@ -662,4 +662,4 @@ _Рисунок 48 — Результат выполнения программ�
 
 ## Создание пакетов
 
-Читайте в отдельной статье [](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/create-python-package-rye/create-python-package-rye.md) | [🡥](https://harrix.dev/ru/articles/2024/create-python-package-rye/)
+Читайте в отдельной статье [Создание пакетов в Python через Rye](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/create-python-package-rye/create-python-package-rye.md) | [🡥](https://harrix.dev/ru/articles/2024/create-python-package-rye/).
