@@ -62,6 +62,7 @@ attribution:
 - `rye sync --update-all` — обновление всех библиотек проекта.
 - `rye sync --update cowsay` — обновление конкретной библиотеки.
 - `rye remove cowsay` — удаление библиотеки.
+- `rye test` — запускает тесты на базе `pytest`.
 - `rye fetch 3.12` + `rye pin 3.12` + `rye sync` — переключает на другую версию Python.
 - `rye add --dev pyinstaller` + `pyinstaller -F src\test_rye\main.py` — генерирует EXE файл.
 
