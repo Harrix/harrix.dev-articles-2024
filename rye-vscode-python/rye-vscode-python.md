@@ -65,6 +65,9 @@ attribution:
 - `rye test` — запускает тесты на базе `pytest`.
 - `rye fetch 3.12` + `rye pin 3.12` + `rye sync` — переключает на другую версию Python.
 - `rye add --dev pyinstaller` + `pyinstaller -F src\test_rye\main.py` — генерирует EXE файл.
+- `rye build` — собирает библиотеку.
+- `rye publish --repository testpypi --repository-url https://test.pypi.org/legacy/` — публикация библиотеки на test.pypi.org.
+- `rye publish` — публикация библиотеки на PyPI.
 
 ## Ссылки
 
