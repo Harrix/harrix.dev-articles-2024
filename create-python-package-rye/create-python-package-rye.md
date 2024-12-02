@@ -62,7 +62,7 @@ attribution:
 
 Откройте в VSCode папку с проектами через `File` → `Open Folder...`, например, `C:\python-projects`, вызовете там терминал `Ctrl` + `` ` `` и создайте проект Rye через команду (разумеется, у вас будет другое название проекта):
 
-```console
+```powershell
 rye init harrix-test-package
 ```
 
@@ -240,11 +240,11 @@ Test package.
 
 ## Install
 
-```console
+```powershell
 pip install harrix-test-package
 ```
 
-```console
+```powershell
 rye add harrix-test-package
 ```
 
@@ -266,7 +266,7 @@ _Рисунок 8 — Файл README.md_
 
 Мы уже создали папку `tests` с файлом тестов, а также установили `pytest` (если не установили, то установите через `rye add --dev pytest`). Так что для тестирования пакета нужно только запустить команду в терминале:
 
-```console
+```powershell
 rye test
 ```
 
@@ -284,7 +284,7 @@ _Рисунок 9 — Результат тестирования пакета_
 
 Соберите пакет для публикации и опубликуйте:
 
-```console
+```powershell
 rye build
 rye publish --repository testpypi --repository-url https://test.pypi.org/legacy/
 ```
@@ -295,7 +295,7 @@ rye publish --repository testpypi --repository-url https://test.pypi.org/legacy/
 
 Соберите пакет для публикации и опубликуйте:
 
-```console
+```powershell
 rye build
 ```
 
@@ -363,40 +363,41 @@ _Рисунок 18 — Папка dist_
 
 ## Использование пакета, опубликованного на PyPi
 
-Для проверки опубликованного пакета создаем новый Python проект (например, с именем `test2`) со своим виртуальным окружением, куда установлю опубликованный пакет.
+Для проверки опубликованного пакета создаем новый Python проект с использованием Rye (например, с именем `test`) со своим виртуальным окружением, куда установлю опубликованный пакет. Можно сделать [обычным способом](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/rye-vscode-python/rye-vscode-python.md) | [🡥](https://harrix.dev/ru/articles/2024/rye-vscode-python.md/), а можно через консоль с открытием проекта в VSCode. Привожу код для Windows через PowerShell:
 
-```console
-exit
-mkdir c:\projects\test2
-cd c:\projects\test2
-Rye install
-Rye shell
+```powershell
+cd C:\python-projects
+rye init test
+cd test
+rye sync
+rye add harrix-test-package
+"" | Out-File -FilePath src\main.py -Encoding utf8
+code C:\python-projects\test
 ```
 
-Если вы не виртуальном окружении, то не используйте команду `exit`.
+![Выполнение команд в терминале](img/terminal.png)
 
-Устанавливаем пакет. Команду для установки берем со страницы пакета <https://pypi.org/project/harrix-test-package>.
+_Рисунок 19 — Выполнение команд в терминале_
 
-```console
-Rye install harrix-test-package
-```
+Так как я использую Visual Studio Code Insiders, то последняя строчка у меня выглядит как `code-insiders C:\python-projects\test`
 
-В созданной папке `c:\projects\test2\` создаем файл `main.py`:
+В файле `src\main.py` внесем пример кода:
 
 ```python
 import harrix_test_package as h
 
-
 print(h.multiply_2(2))
+
+print(h.multiply_10(2))
+
+print(len(h.test_numpy()))
 ```
 
-После запустим данный файл:
+Запустим код:
 
-```console
-python main.py
-```
+![Использование пакета](img/using_package.png)
 
-Если видим вывод числа 4, то всё работает хорошо.
+_Рисунок 19 — Использование пакета_
 
 ## Использование пакета, опубликованного на PyPi, с pip
 
@@ -464,7 +465,7 @@ if __name__ == '__main__':
 
 Теперь надо запустить юнит-тесты. Для примера я открыл новую командую строку (если вы были в чужом виртуальном окружении, то не забывайте выходить из него через `exit`):
 
-```console
+```powershell
 cd c:\projects\harrix-test-package
 Rye shell
 python -m unittest discover tests
@@ -500,14 +501,14 @@ setup(
 
 Собираем и публикуем пакет:
 
-```console
+```powershell
 python setup.py sdist bdist_wheel
 twine upload dist/*
 ```
 
 В проектах, в котором использовался наш пакет обновляем его через команду:
 
-```console
+```powershell
 Rye update harrix-test-package
 ```
 
@@ -517,7 +518,7 @@ Rye update harrix-test-package
 
 Считаем, что [Python](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/install-python/install-python.md) | [🡥](https://harrix.dev/ru/articles/2024/install-python/) и [Git](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/install-git/install-git.md) | [🡥](https://harrix.dev/ru/articles/2024/install-git/) у вас установлены на новой машине. Cклонировать проект можно такой командой:
 
-```console
+```powershell
 mkdir c:\python-projects
 cd c:\python-projects
 git clone https://github.com/Harrix/harrix-test-package
@@ -532,7 +533,7 @@ cd c:\python-projects\harrix-test-package
 
 На всякий случай обновляем pip и устанавливаем virtualenv, Rye:
 
-```console
+```powershell
 python -m pip install --upgrade pip
 python -m pip install virtualenv
 python -m pip install Rye
@@ -540,14 +541,14 @@ python -m pip install Rye
 
 Создаем виртуальное окружение и его активируем, устанавливаем все пакеты из файла `Pipfile`:
 
-```console
+```powershell
 Rye install
 Rye shell
 ```
 
 Устанавливаем наш пакет в режиме разработчика:
 
-```console
+```powershell
 Rye install --dev -e .
 ```
 
@@ -570,7 +571,7 @@ def test_multiply_30(self):
 
 Запускаю юнит-тесты:
 
-```console
+```powershell
 python -m unittest discover tests
 ```
 
@@ -578,7 +579,7 @@ python -m unittest discover tests
 
 Собираю и публикую пакет:
 
-```console
+```powershell
 python setup.py sdist bdist_wheel
 twine upload dist/*
 ```
@@ -587,7 +588,7 @@ twine upload dist/*
 
 Если вы пока не хотите публиковать разрабатываемый пакет, но хотите использовать его в другом проекте, то его можно установить локально:
 
-```console
+```powershell
 pip install -e c:/projects/harrix-test-package
 ```
 
