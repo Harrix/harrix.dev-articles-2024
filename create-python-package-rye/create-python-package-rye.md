@@ -546,10 +546,10 @@ _Рисунок 23 — Обновление пакета_
 Считаем, что [Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) | [🡥](https://harrix.dev/ru/articles/2021/install-python/) и [Git](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-git/install-git.md) | [🡥](https://harrix.dev/ru/articles/2021/install-git/) у вас установлены на новой машине. Cклонировать проект можно такой командой:
 
 ```powershell
-mkdir c:\python-projects
-cd c:\python-projects
+mkdir c:\projects
+cd c:\projects
 git clone https://github.com/Harrix/harrix-test-package
-cd c:\python-projects\harrix-test-package
+cd c:\projects\harrix-test-package
 ```
 
 Или вы просто копируете как-нибудь свой проект на другую машину (да хоть через флешку).
