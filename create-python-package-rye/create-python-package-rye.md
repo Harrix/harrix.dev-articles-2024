@@ -371,7 +371,7 @@ rye init test
 cd test
 rye sync
 rye add harrix-test-package
-"" | Out-File -FilePath src\main.py -Encoding utf8
+"" | Out-File -FilePath src\test\main.py -Encoding utf8
 code C:\python-projects\test
 ```
 
