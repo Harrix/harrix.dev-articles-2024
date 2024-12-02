@@ -2,7 +2,6 @@
 date: 2024-08-28
 categories: [it, programming]
 tags: [Python]
-published: false
 related-id: create-python-package
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
