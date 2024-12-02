@@ -427,11 +427,20 @@ def multiply_20(x):
 После добавления файл `src\harrix_test_package\functions.py` примет вид:
 
 ```python
+import numpy as np
+
+
 def multiply_2(x):
     return x * 2
 
+
 def multiply_10(x):
     return x * 10
+
+
+def test_numpy():
+    return np.arange(-2, 2, 0.5)
+
 
 def multiply_20(x):
     return x * 20
@@ -440,77 +449,95 @@ def multiply_20(x):
 Также добавим новый тест в файл `tests\test_functions.py`:
 
 ```python
-import unittest
-
 import harrix_test_package as h
 
-class Testharrix_test_package(unittest.TestCase):
 
-    def test_multiply_2(self):
-        re = h.multiply_2(2)
-        self.assertEqual(re, 4)
-
-    def test_multiply_10(self):
-        re = h.multiply_10(2)
-        self.assertEqual(re, 20)
-
-    def test_multiply_20(self):
-        re = h.multiply_20(2)
-        self.assertEqual(re, 40)
+def test_multiply_2():
+    re = h.multiply_2(2)
+    assert re == 4
 
 
-if __name__ == '__main__':
-    unittest.main()
+def test_multiply_10():
+    re = h.multiply_10(2)
+    assert re == 20
+
+
+def test_test_numpy():
+    re = len(h.test_numpy())
+    assert re == 8
+
+def test_multiply_20():
+    re = h.multiply_20(2)
+    assert re == 40
+
 ```
 
-Теперь надо запустить юнит-тесты. Для примера я открыл новую командую строку (если вы были в чужом виртуальном окружении, то не забывайте выходить из него через `exit`):
+Теперь надо запустить тесты:
 
 ```powershell
-cd c:\projects\harrix-test-package
-Rye shell
-python -m unittest discover tests
+rye test
 ```
 
 Тесты успешно пройдены:
 
-![Тестирование пакета](img/testing_02.png)
+![Тестирование пакета](img/test_03.png)
 
-_Рисунок 3 — Тестирование пакета_
+_Рисунок 22 — Тестирование пакета_
 
-В файле `setup.py` поменяем номер версии пакета на `0.2`:
+В файле `pyproject.toml` поменяем номер версии пакета на следующую, у меня это `0.6`:
 
-```python
-from setuptools import find_packages, setup
-import pathlib
-here = pathlib.Path(__file__).parent.resolve()
-long_description = (here / 'README.md').read_text(encoding='utf-8')
+```toml
+[project]
+name = "harrix-test-package"
+version = "0.6"
+description = "Test package"
+authors = [{ name = "Anton Sergienko", email = "anton.b.sergienko@gmail.com" }]
+dependencies = ["numpy>=2.1.1"]
+readme = "README.md"
+requires-python = ">= 3.8"
+license = {file = "LICENSE"}
 
-setup(
-    name="harrix-test-package",
-    version="0.2",
-    description="Test package",
-    long_description=long_description,
-    long_description_content_type='text/markdown',
-    url="https://github.com/Harrix/harrix-test-package",
-    author="Anton Sergienko",
-    author_email="anton.b.sergienko@gmail.com",
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
-)
+[project.urls]
+Homepage = "https://github.com/Harrix/harrix-test-package"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = ["black>=24.8.0", "pytest>=8.3.3"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/harrix_test_package"]
+
 ```
 
 Собираем и публикуем пакет:
 
 ```powershell
-python setup.py sdist bdist_wheel
-twine upload dist/*
+rye build --clean
+rye publish
 ```
+
+Если вы шифровали токен, то надо будет ввести при публикации пароль.
+
+Публикация нового проекта завершена.
 
 В проектах, в котором использовался наш пакет обновляем его через команду:
 
 ```powershell
-Rye update harrix-test-package
+rye sync --update harrix-test-package
 ```
+
+![Обновление пакета](img/update-package.png)
+
+_Рисунок 23 — Обновление пакета_
+
+Или через `pip install harrix-test-package --upgrade`, если ваш проект использует pip.
 
 ## Развертывание разработки пакета на новой машине
 
