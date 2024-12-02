@@ -42,7 +42,6 @@ attribution:
 
 - <https://github.com/Harrix/harrix-test-package>
 - <https://pypi.org/project/harrix-test-package>
-- <https://test.pypi.org/project/harrix-test-package>
 
 Официальная документация:
 
@@ -174,7 +173,7 @@ authors = [{ name = "Anton Sergienko", email = "anton.b.sergienko@gmail.com" }]
 dependencies = ["numpy>=2.1.1"]
 readme = "README.md"
 requires-python = ">= 3.8"
-license = {file = "LICENSE.md"}
+license = {file = "LICENSE"}
 
 [project.urls]
 Homepage = "https://github.com/Harrix/harrix-test-package"
@@ -194,7 +193,9 @@ allow-direct-references = true
 packages = ["src/harrix_test_package"]
 ```
 
-Параметры `name`, `version`, `description`, `Homepage`, `authors` поменяйте под себя. Раздел `project.urls` добавил вручную, так что, если у вас нет страницы проекта, то можно удалить. Аналогично со строкой `license = {file = "LICENSE"}`.
+У меня версия пакета равна `0.4`, так как этот пакет уже использовался для экспериментов по созданию пакета другими средствами Python. У вас же она будет равна скорее всего `0.1`, `0.0.1` или `1.0` — всё зависит от выбранной вами нумерации версий пакетов.
+
+Параметры `name`, `description`, `Homepage`, `authors` поменяйте под себя. Раздел `project.urls` добавил вручную, так что, если у вас нет страницы проекта, то можно удалить. Аналогично со строкой `license = {file = "LICENSE"}`.
 
 ![Файл pyproject.toml](img/toml.png)
 
@@ -263,7 +264,7 @@ _Рисунок 8 — Файл README.md_
 
 ## Тестирование пакета
 
-Мы уже создали папку `tests` с файлом тестов, а также установили `pytest`. Так что для тестирования пакета нужно только запустить команду в терминале:
+Мы уже создали папку `tests` с файлом тестов, а также установили `pytest` (если не установили, то установите через `rye add --dev pytest`). Так что для тестирования пакета нужно только запустить команду в терминале:
 
 ```console
 rye test
@@ -277,14 +278,26 @@ _Рисунок 9 — Результат тестирования пакета_
 
 ## Сборка пакета и публикация на TestPyPi
 
-Перед публикацией пакета на основном сервере, лучше опубликовать пакет на тестовом сервере TestPyPi.
+Данный раздел был удален после написания, так как мой пакет использует `numpy`, а этого пакета нет на TestPyPi, что приводит к проблемам установки моего пакета.
 
-Зарегистрируйтесь на [TestPyPi](https://test.pypi.org/account/register/). Также там нужно будет [настроить двуфакторную авторизацию](https://test.pypi.org/manage/account/two-factor/). Я для этого использовал Microsoft Authenticator.
+Однако, если вы захотите собрать пакет и отправить его на TestPyPi, то зарегистрируйтесь на [TestPyPi](https://test.pypi.org/account/register/). Также там нужно будет [настроить двуфакторную авторизацию](https://test.pypi.org/manage/account/two-factor/). Я для этого использовал Microsoft Authenticator.
 
-Соберите пакет для публикации:
+Соберите пакет для публикации и опубликуйте:
 
 ```console
 rye build
+rye publish --repository testpypi --repository-url https://test.pypi.org/legacy/
+```
+
+## Сборка пакета и публикация на PyPi
+
+Зарегистрируйтесь на [PyPi](https://pypi.org/account/register/). Также там нужно будет [настроить двуфакторную авторизацию](https://pypi.org/manage/account/two-factor/). Я для этого использовал Microsoft Authenticator.
+
+Соберите пакет для публикации и опубликуйте:
+
+```console
+rye build
+rye publish --repository testpypi --repository-url https://test.pypi.org/legacy/
 ```
 
 ![Процесс сборки пакета](img/build.png)
