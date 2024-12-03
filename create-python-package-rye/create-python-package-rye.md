@@ -61,7 +61,7 @@ attribution:
 
 Откройте в VSCode папку с проектами через `File` → `Open Folder...`, например, `C:\python-projects`, вызовете там терминал `Ctrl` + `` ` `` и создайте проект Rye через команду (разумеется, у вас будет другое название проекта):
 
-```powershell
+```cmd
 rye init harrix-test-package
 ```
 
@@ -239,11 +239,11 @@ Test package.
 
 ## Install
 
-```powershell
+```cmd
 pip install harrix-test-package
 ```
 
-```powershell
+```cmd
 rye add harrix-test-package
 ```
 
@@ -265,7 +265,7 @@ _Рисунок 8 — Файл README.md_
 
 Мы уже создали папку `tests` с файлом тестов, а также установили `pytest` (если не установили, то установите через `rye add --dev pytest`). Так что для тестирования пакета нужно только запустить команду в терминале:
 
-```powershell
+```cmd
 rye test
 ```
 
@@ -283,7 +283,7 @@ _Рисунок 9 — Результат тестирования пакета_
 
 Соберите пакет для публикации и опубликуйте:
 
-```powershell
+```cmd
 rye build
 rye publish --repository testpypi --repository-url https://test.pypi.org/legacy/
 ```
@@ -294,7 +294,7 @@ rye publish --repository testpypi --repository-url https://test.pypi.org/legacy/
 
 Соберите пакет для публикации и опубликуйте:
 
-```powershell
+```cmd
 rye build
 ```
 
@@ -384,7 +384,7 @@ rye add harrix-test-package
 code C:\python-projects\test
 ```
 
-```powershell
+```cmd
 cd C:\python-projects
 rye init test
 cd test
@@ -503,7 +503,7 @@ def test_multiply_20():
 
 Теперь надо запустить тесты:
 
-```powershell
+```cmd
 rye test
 ```
 
@@ -587,7 +587,7 @@ cd c:\projects\harrix-test-package
 
 Пишем команду для создания виртуального окружения с теми же самыми библиотеками, что были в проекте. Это прописано в файлах `requirements.lock` и `requirements-dev.lock`:
 
-```powershell
+```cmd
 rye sync
 ```
 
@@ -609,7 +609,7 @@ _Рисунок 43 — Проект открытый в VSCode_
 
 Если вы пока не хотите публиковать разрабатываемый пакет, но хотите использовать его в другом проекте, то его можно установить локально:
 
-```powershell
+```cmd
 rye add c:/python-projects/harrix-test-package
 ```
 
