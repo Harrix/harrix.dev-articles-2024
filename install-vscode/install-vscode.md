@@ -11,16 +11,8 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2024/blob/main/i
 permalink: https://harrix.dev/ru/articles/2022/install-vscode/
 lang: ru
 attribution:
-  - {
-      author: Microsoft Corporation,
-      author-site: "https://www.microsoft.com/",
-      license: Public
-        domain,
-      license-url: "https://en.wikipedia.org/wiki/Public_domain",
-      permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
-      permalink-date: 2019-08-02,
-      name: Visual Studio Code 1.35 icon.svg,
-    }
+  - { author: Microsoft Corporation, author-site: "https://www.microsoft.com/", license: Public
+        domain, license-url: "https://en.wikipedia.org/wiki/Public_domain", permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg", permalink-date: 2019-08-02, name: Visual Studio Code 1.35 icon.svg }
 ---
 
 # Установка и настройка Visual Studio Code
@@ -858,7 +850,7 @@ _Рисунок 87 — Выбор плагина для форматирован
 Покажем, как работает код. Например, есть такой код:
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -871,7 +863,7 @@ _Рисунок 87 — Выбор плагина для форматирован
 Плагин нам его преобразует вот в такой:
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -1073,7 +1065,7 @@ _Рисунок 106 — История коммитов файла_
 
 И на всякий случай обновите у себя `pip` (терминал или командную строку лучше открывать с правами администратора):
 
-```console
+```powershell
 python -m pip install --upgrade pip
 ```
 
@@ -1221,7 +1213,7 @@ _Рисунок 122 — Открытая папка в VSCode_
 
 Новую виртуальную среду под наш проект можно создать через команду:
 
-```console
+```powershell
 python -m venv .venv
 ```
 
@@ -1251,13 +1243,13 @@ _Рисунок 126 — Возможные варианты называния �
 
 Кроме встроенной системы виртуальных сред Venv есть и другие системы. Например, PyCharm использует [Virtualenv](https://virtualenv.pypa.io/en/stable/) по умолчанию. Вначале устанавливаем глобальный пакет:
 
-```console
+```powershell
 python -m pip install virtualenv
 ```
 
 В папке проекта виртуальную среду можно создать через:
 
-```console
+```powershell
 python -m virtualenv .env
 ```
 
@@ -1281,7 +1273,7 @@ c:\projects\harrix-test-package\.env\Scripts\activate.bat
 
 Когда вы устанавливаете пакеты в проект, то в проекте создается файл `requirements.txt` (этот файл в отличии от папки с виртуальной средой нужно в git добавлять) со списком пакетов. И на другой машине можно восстановить пакеты через команду:
 
-```console
+```powershell
 python -m pip install -r requirements.txt
 ```
 
@@ -1291,7 +1283,7 @@ python -m pip install -r requirements.txt
 
 Установка глобального пакета (лучше устанавливать под администратором):
 
-```console
+```powershell
 python -m pip install virtualenv
 python -m pip install pipenv
 ```
@@ -1300,7 +1292,7 @@ python -m pip install pipenv
 
 Виртуальную среду можно создать через две команды:
 
-```console
+```powershell
 pipenv install
 pipenv shell
 ```
@@ -1337,7 +1329,7 @@ _Рисунок 133 — Выбранная виртуальная среда_
 
 А если вы хотите развернуть ваш проект на другой машине, то установите Pipenv на другой машине и вызовите команду (это аналог `python -m pip install -r requirements.txt`):
 
-```console
+```powershell
 pipenv install
 pipenv shell
 ```
@@ -1451,7 +1443,7 @@ _Рисунок 148 — Результат форматирования_
 
 А мы только что установили autopep8. Будем менять. Вначале установим глобально плагин black:
 
-```console
+```powershell
 pip install black
 ```
 
@@ -1687,29 +1679,14 @@ TODO https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "gutterpreview.imagePreviewMaxHeight": 200,
-  "colorize.languages": [
-    "css",
-    "scss",
-    "sass",
-    "javascript",
-    "html",
-    "markdown"
-  ],
+  "colorize.languages": ["css", "scss", "sass", "javascript", "html", "markdown"],
   "security.workspace.trust.untrustedFiles": "open",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "python.insidersChannel": "daily",
   "python.formatting.provider": "black",
-  "todo-tree.general.tags": [
-    "BUG",
-    "HACK",
-    "FIXME",
-    "TODO",
-    "XXX",
-    "[ ]",
-    "[x]"
-  ],
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "workbench.colorTheme": "FlatUI",
   "cSpell.customDictionaries": {

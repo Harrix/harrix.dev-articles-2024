@@ -557,7 +557,7 @@ cd c:\projects\harrix-test-package
 
 Пишем команду для создания виртуального окружения с теми же самыми библиотеками, что были в проекте. Это прописано в файлах `requirements.lock` и `requirements-dev.lock`:
 
-```console
+```powershell
 rye sync
 ```
 
