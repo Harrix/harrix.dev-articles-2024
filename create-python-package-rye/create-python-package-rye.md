@@ -546,7 +546,7 @@ _Рисунок 23 — Обновление пакета_
 
 Cклонировать проект можно такой командой:
 
-```cmd
+```shell
 mkdir c:\projects
 cd c:\projects
 git clone https://github.com/Harrix/harrix-test-package
