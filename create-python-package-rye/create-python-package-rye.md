@@ -364,37 +364,7 @@ _Рисунок 18 — Папка dist_
 
 Для проверки опубликованного пакета создаем новый Python проект с использованием Rye (например, с именем `test`) со своим виртуальным окружением, куда установлю опубликованный пакет. Можно сделать [обычным способом](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/rye-vscode-python/rye-vscode-python.md) | [🡥](https://harrix.dev/ru/articles/2024/rye-vscode-python.md/), а можно через консоль с открытием проекта в VSCode. Привожу код для Windows через PowerShell:
 
-```console
-cd C:\python-projects
-rye init test
-cd test
-rye sync
-rye add harrix-test-package
-"" | Out-File -FilePath src\test\main.py -Encoding utf8
-code C:\python-projects\test
-```
-
 ```cmd
-cd C:\python-projects
-rye init test
-cd test
-rye sync
-rye add harrix-test-package
-"" | Out-File -FilePath src\test\main.py -Encoding utf8
-code C:\python-projects\test
-```
-
-```cmd
-cd C:\python-projects
-rye init test
-cd test
-rye sync
-rye add harrix-test-package
-"" | Out-File -FilePath src\test\main.py -Encoding utf8
-code C:\python-projects\test
-```
-
-```shell
 cd C:\python-projects
 rye init test
 cd test
