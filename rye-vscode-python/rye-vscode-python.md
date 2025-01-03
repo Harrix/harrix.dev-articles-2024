@@ -8,7 +8,7 @@ author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 permalink-source: https://github.com/Harrix/harrix.dev-articles-2024/blob/main/rye-vscode-python/rye-vscode-python.md
-permalink: https://harrix.dev/ru/articles/2023/rye-vscode-python/
+permalink: https://harrix.dev/ru/articles/2024/rye-vscode-python/
 lang: ru
 attribution:
   - {
