@@ -1,5 +1,6 @@
 ---
 date: 2024-09-07
+update: 2025-01-07
 categories: [it, programming]
 tags: [Python, VScode]
 download: https://github.com/Harrix/harrix.dev-articles-2024/raw/main/rye-vscode-python/files/test-rye.zip
@@ -38,6 +39,8 @@ attribution:
 Что использовать вместо pip? Есть Pipenv, Hatch, Poetry и PDM. Но недавно появился Rye, который очень быстро всех нагоняет и обгоняет. Будем учиться с ним работать.
 
 Обзор этих инструментов можно посмотреть [тут](https://dev.to/adamghill/python-package-manager-comparison-1g98).
+
+Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers.» Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/uv-vscode-python/uv-vscode-python.md) | [🡥](https://harrix.dev/ru/articles/2025/uv-vscode-python/).
 
 ## Кратко
 
@@ -674,3 +677,5 @@ _Рисунок 48 — Результат выполнения программ�
 ## Создание пакетов
 
 Читайте в отдельной статье [Создание пакетов в Python через Rye](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/create-python-package-rye/create-python-package-rye.md) | [🡥](https://harrix.dev/ru/articles/2024/create-python-package-rye/).
+
+Но так как Rye уже устарел, то смотрите [Создание пакетов в Python через uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/create-python-package-uv/create-python-package-uv.md) | [🡥](https://harrix.dev/ru/articles/2025/create-python-package-uv/).

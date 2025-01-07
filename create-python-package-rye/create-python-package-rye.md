@@ -1,5 +1,6 @@
 ---
 date: 2024-12-03
+update: 2025-01-07
 categories: [it, programming]
 tags: [Python]
 related-id: create-python-package
@@ -36,6 +37,8 @@ attribution:
 ![Featured image](featured-image.svg)
 
 Подробная инструкция по созданию собственного пакета Python через Rye на примере Windows 11.
+
+Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers.» Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/create-python-package-rye/create-python-package-rye.md) | [🡥](https://harrix.dev/ru/articles/2025/create-python-package-rye/).
 
 Пакет, созданный в рамках этой статьи:
 
