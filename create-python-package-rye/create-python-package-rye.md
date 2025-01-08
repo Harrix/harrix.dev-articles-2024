@@ -56,7 +56,7 @@ attribution:
 
 ## Подготовка
 
-Установите и настройте Rye, например, по статье [Установка и работа с Rye (Python) в VSCode](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/rye-vscode-python/rye-vscode-python.md) | [🡥](https://harrix.dev/ru/articles/2023/rye-vscode-python/).
+Установите и настройте Rye, например, по статье [Установка и работа с Rye (Python) в VSCode](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/rye-vscode-python/rye-vscode-python.md) | [🡥](https://harrix.dev/ru/articles/2024/rye-vscode-python/).
 
 ## Создание проекта
 
