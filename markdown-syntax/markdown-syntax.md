@@ -642,12 +642,14 @@ graph TD;
 Github может отображать сноски[^1]. Об этом можно почитать в официальной документации[^2].
 
 [^1]: [Footnotes now supported in Markdown fields](https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/)
+
 [^2]: [Footnotes](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes)
 ```
 
 Github может отображать сноски[^1]. Об этом можно почитать в официальной документации[^2].
 
 [^1]: [Footnotes now supported in Markdown fields](https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/)
+
 [^2]: [Footnotes](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes)
 
 ### Youtube видео
