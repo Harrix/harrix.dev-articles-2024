@@ -1,8 +1,11 @@
 ---
 date: 2024-12-03
 update: 2025-01-07
-categories: [it, programming]
-tags: [Python]
+categories:
+  - it
+  - programming
+tags:
+  - Python
 related-id: create-python-package
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
@@ -12,24 +15,20 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2024/blob/main/c
 permalink: https://harrix.dev/ru/articles/2024/create-python-package-rye/
 lang: ru
 attribution:
-  - {
-      author: Python Packaging Authority / Python Software Foundation,
-      author-site: "https://pypi.org/",
-      license: GNU General Public License,
-      license-url: "https://en.wikipedia.org/wiki/GNU_General_Public_License",
-      permalink: "https://en.wikipedia.org/wiki/File:PyPI_logo.svg",
-      permalink-date: 2021-10-03,
-      name: PyPI logo.svg,
-    }
-  - {
-      author: Astral,
-      author-site: "https://github.com/astral-sh",
-      license: MIT,
-      license-url: "https://github.com/astral-sh/rye/blob/main/LICENSE",
-      permalink: "https://github.com/astral-sh/rye/blob/main/docs/static/favicon.svg",
-      permalink-date: 2024-08-03,
-      name: Rye Logo,
-    }
+  - author: Python Packaging Authority / Python Software Foundation
+    author-site: https://pypi.org/
+    license: GNU General Public License
+    license-url: https://en.wikipedia.org/wiki/GNU_General_Public_License
+    permalink: https://en.wikipedia.org/wiki/File:PyPI_logo.svg
+    permalink-date: 2021-10-03
+    name: PyPI logo.svg
+  - author: Astral
+    author-site: https://github.com/astral-sh
+    license: MIT
+    license-url: https://github.com/astral-sh/rye/blob/main/LICENSE
+    permalink: https://github.com/astral-sh/rye/blob/main/docs/static/favicon.svg
+    permalink-date: 2024-08-03
+    name: Rye Logo
 ---
 
 # Создание пакетов в Python через Rye

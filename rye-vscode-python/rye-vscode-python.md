@@ -1,8 +1,12 @@
 ---
 date: 2024-09-07
 update: 2025-01-07
-categories: [it, programming]
-tags: [Python, VScode]
+categories:
+  - it
+  - programming
+tags:
+  - Python
+  - VScode
 download: https://github.com/Harrix/harrix.dev-articles-2024/raw/main/rye-vscode-python/files/test-rye.zip
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
@@ -12,24 +16,20 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2024/blob/main/r
 permalink: https://harrix.dev/ru/articles/2024/rye-vscode-python/
 lang: ru
 attribution:
-  - {
-      author: Python Software Foundation,
-      author-site: "https://www.python.org/psf/",
-      license: GNU General Public License,
-      license-url: "https://en.wikipedia.org/wiki/GNU_General_Public_License",
-      permalink: "https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg",
-      permalink-date: 2021-08-01,
-      name: Python logo and wordmark.svg,
-    }
-  - {
-      author: Astral,
-      author-site: "https://github.com/astral-sh",
-      license: MIT,
-      license-url: "https://github.com/astral-sh/rye/blob/main/LICENSE",
-      permalink: "https://github.com/astral-sh/rye/blob/main/docs/static/favicon.svg",
-      permalink-date: 2024-08-03,
-      name: Rye Logo,
-    }
+  - author: Python Software Foundation
+    author-site: https://www.python.org/psf/
+    license: GNU General Public License
+    license-url: https://en.wikipedia.org/wiki/GNU_General_Public_License
+    permalink: https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg
+    permalink-date: 2021-08-01
+    name: Python logo and wordmark.svg
+  - author: Astral
+    author-site: https://github.com/astral-sh
+    license: MIT
+    license-url: https://github.com/astral-sh/rye/blob/main/LICENSE
+    permalink: https://github.com/astral-sh/rye/blob/main/docs/static/favicon.svg
+    permalink-date: 2024-08-03
+    name: Rye Logo
 ---
 
 # Установка и работа с Rye (Python) в VSCode

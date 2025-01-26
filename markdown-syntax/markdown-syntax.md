@@ -1,7 +1,13 @@
 ---
 date: 2023-11-28
-categories: [it, program]
-tags: [Markdown, VSCode, GitHub, Obsidian]
+categories:
+  - it
+  - program
+tags:
+  - Markdown
+  - VSCode
+  - GitHub
+  - Obsidian
 published: false
 latex: true
 author: Anton Sergienko
@@ -12,15 +18,13 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2024/blob/main/m
 permalink: https://harrix.dev/ru/articles/2022/markdown-syntax/
 lang: ru
 attribution:
-  - {
-      author: Dustin Curtis,
-      author-site: "https://github.com/dcurtis",
-      license: CC0,
-      license-url: "https://github.com/dcurtis/markdown-mark/blob/master/LICENSE",
-      permalink: "https://commons.wikimedia.org/wiki/File:Markdown-mark.svg",
-      permalink-date: 2019-03-19,
-      name: Markdown-mark.svg,
-    }
+  - author: Dustin Curtis
+    author-site: https://github.com/dcurtis
+    license: CC0
+    license-url: https://github.com/dcurtis/markdown-mark/blob/master/LICENSE
+    permalink: https://commons.wikimedia.org/wiki/File:Markdown-mark.svg
+    permalink-date: 2019-03-19
+    name: Markdown-mark.svg
 ---
 
 # Markdown синтаксис
