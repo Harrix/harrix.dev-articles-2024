@@ -59,11 +59,11 @@ attribution:
 - [Сборка EXE файла](#сборка-exe-файла)
 - [Создание пакетов](#создание-пакетов)
 
+</details>
+
 Обзор этих инструментов можно посмотреть [тут](https://dev.to/adamghill/python-package-manager-comparison-1g98).
 
 Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers.» Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/uv-vscode-python/uv-vscode-python.md) | [🡥](https://harrix.dev/ru/articles/2025/uv-vscode-python/).
-
-</details>
 
 ## Кратко
 

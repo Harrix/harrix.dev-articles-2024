@@ -64,6 +64,8 @@ attribution:
   - [Сноски (Footnotes)](#сноски-footnotes)
   - [Youtube видео](#youtube-видео)
 
+</details>
+
 <details>
 <summary>Вводные пояснения</summary>
 
@@ -93,8 +95,6 @@ attribution:
   ```
 
 - Obsidian проверялся на Android и Windows.
-
-</details>
 
 </details>
 
