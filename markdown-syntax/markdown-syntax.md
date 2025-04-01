@@ -33,7 +33,8 @@ attribution:
 
 Подробное описание синтаксиса Markdown, проверенного на нескольких платформах: GitHub, VSCode, Obsidian, Markor.
 
-## Содержание
+<details>
+<summary>📖 Содержание</summary>
 
 - [Стандартная типографика](#стандартная-типографика)
   - [Заголовки](#заголовки)
@@ -90,6 +91,8 @@ attribution:
   ```
 
 - Obsidian проверялся на Android и Windows.
+
+</details>
 
 </details>
 
@@ -610,7 +613,7 @@ graph TD;
 | −      | -     | 5−2=3                           | Минус          |
 | -      | -     | Кое-что, тел.: 123-45-67        | Обычный дефис  |
 | «»     | <<>>  | Петя сказал: «Скоро Новый год». | Кавычки-елочки |
-| ©     | (c)   | Все права защищены © 2022.     | Знак копирайта |
+| ©      | (c)   | Все права защищены © 2022.      | Знак копирайта |
 | ×      | x     | 1920 × 768 px                   | Знак умножения |
 | →      | ->    | `File` → `New file`             | Стрелка        |
 | …      | ...   | Надо так много сказать…         | Троеточие      |
@@ -674,14 +677,12 @@ graph TD;
 Github может отображать сноски[^1]. Об этом можно почитать в официальной документации[^2].
 
 [^1]: [Footnotes now supported in Markdown fields](https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/)
-
 [^2]: [Footnotes](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes)
 ```
 
 Github может отображать сноски[^1]. Об этом можно почитать в официальной документации[^2].
 
 [^1]: [Footnotes now supported in Markdown fields](https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/)
-
 [^2]: [Footnotes](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes)
 
 ### Youtube видео

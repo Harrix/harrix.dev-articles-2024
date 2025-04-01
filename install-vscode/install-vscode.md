@@ -30,7 +30,8 @@ attribution:
 
 ![Featured image](featured-image.svg)
 
-## Содержание
+<details>
+<summary>📖 Содержание</summary>
 
 - [Ссылки](#ссылки)
 - [Скачивание](#скачивание)
@@ -90,6 +91,8 @@ attribution:
   - [Markdown All in One](#markdown-all-in-one)
 - [Итоговый файл настроек](#итоговый-файл-настроек)
 - [Синхронизация настроек в облаке](#синхронизация-настроек-в-облаке)
+
+</details>
 
 ## Ссылки
 
@@ -1750,29 +1753,14 @@ TODO https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "gutterpreview.imagePreviewMaxHeight": 200,
-  "colorize.languages": [
-    "css",
-    "scss",
-    "sass",
-    "javascript",
-    "html",
-    "markdown"
-  ],
+  "colorize.languages": ["css", "scss", "sass", "javascript", "html", "markdown"],
   "security.workspace.trust.untrustedFiles": "open",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "python.insidersChannel": "daily",
   "python.formatting.provider": "black",
-  "todo-tree.general.tags": [
-    "BUG",
-    "HACK",
-    "FIXME",
-    "TODO",
-    "XXX",
-    "[ ]",
-    "[x]"
-  ],
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "workbench.colorTheme": "FlatUI",
   "cSpell.customDictionaries": {
