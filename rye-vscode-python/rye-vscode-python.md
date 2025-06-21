@@ -63,7 +63,7 @@ attribution:
 
 Обзор этих инструментов можно посмотреть [тут](https://dev.to/adamghill/python-package-manager-comparison-1g98).
 
-Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers.» Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/uv-vscode-python/uv-vscode-python.md) | [🡥](https://harrix.dev/ru/articles/2025/uv-vscode-python/).
+Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers.» Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/uv-vscode-python/uv-vscode-python.md) | [↗️](https://harrix.dev/ru/articles/2025/uv-vscode-python/).
 
 ## Кратко
 
@@ -98,7 +98,7 @@ attribution:
 
 - [Rye](https://rye.astral.sh/) — сайт инструмента.
 - [Rye - Basics](https://rye.astral.sh/guide/basics/) — базовая документация.
-- [Создание пакетов в Python через Rye](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/create-python-package-rye/create-python-package-rye.md) | [🡥](https://harrix.dev/ru/articles/2024/create-python-package-rye/).
+- [Создание пакетов в Python через Rye](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/create-python-package-rye/create-python-package-rye.md) | [↗️](https://harrix.dev/ru/articles/2024/create-python-package-rye/).
 
 ## Подготовка
 
@@ -107,7 +107,7 @@ attribution:
 
 Python не обязателен, так как Rye умеет сам устанавливать и управлять Python.
 
-Нужен VSCode. Если его нет, то смотрите статью [Установка Visual Studio Code (простая)](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-vscode-simple/install-vscode-simple.md) | [🡥](https://harrix.dev/ru/articles/2021/install-vscode-simple/).
+Нужен VSCode. Если его нет, то смотрите статью [Установка Visual Studio Code (простая)](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-vscode-simple/install-vscode-simple.md) | [↗️](https://harrix.dev/ru/articles/2021/install-vscode-simple/).
 
 Нужно расширение Python в VScode:
 
@@ -699,6 +699,6 @@ _Рисунок 50 — Результат выполнения программ�
 
 ## Создание пакетов
 
-Читайте в отдельной статье [Создание пакетов в Python через Rye](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/create-python-package-rye/create-python-package-rye.md) | [🡥](https://harrix.dev/ru/articles/2024/create-python-package-rye/).
+Читайте в отдельной статье [Создание пакетов в Python через Rye](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/create-python-package-rye/create-python-package-rye.md) | [↗️](https://harrix.dev/ru/articles/2024/create-python-package-rye/).
 
-Но так как Rye уже устарел, то смотрите [Создание пакетов в Python через uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/create-python-package-uv/create-python-package-uv.md) | [🡥](https://harrix.dev/ru/articles/2025/create-python-package-uv/).
+Но так как Rye уже устарел, то смотрите [Создание пакетов в Python через uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/create-python-package-uv/create-python-package-uv.md) | [↗️](https://harrix.dev/ru/articles/2025/create-python-package-uv/).
