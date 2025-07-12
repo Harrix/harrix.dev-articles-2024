@@ -31,7 +31,7 @@ attribution:
 ![Featured image](featured-image.svg)
 
 <details>
-<summary>📖 Содержание</summary>
+<summary>📖 Содержание ⬇️</summary>
 
 ## Содержание
 
