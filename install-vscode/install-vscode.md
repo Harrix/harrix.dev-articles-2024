@@ -799,7 +799,7 @@ _Рисунок 70 — Пример использования сниппета_
 
 ## Проверка орфографии
 
-Для проверки орфографии нужно установить расширение [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) и [Russian - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-russian).
+Для проверки орфографии нужно установить расширение [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) и [Russian — Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-russian).
 
 ![Установка расширений](img/code-spell-checker_01.png)
 
@@ -903,9 +903,9 @@ _Рисунок 83 — Включение закладки в контекстн
 
 _Рисунок 84 — Раздел с закладками_
 
-### Prettier - Code formatter
+### Prettier — Code formatter
 
-[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) — плагин, который позволяет красиво отформатировать ваш код на языках: JavaScript, TypeScript, JSON, CSS, SCSS, HTML, Markdown и др.
+[Prettier — Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) — плагин, который позволяет красиво отформатировать ваш код на языках: JavaScript, TypeScript, JSON, CSS, SCSS, HTML, Markdown и др.
 
 Когда вам нужно будет отформатировать код, то из палитры команда `F1` выбираете команду `Format document`:
 
