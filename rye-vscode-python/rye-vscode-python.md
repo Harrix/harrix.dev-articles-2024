@@ -63,7 +63,7 @@ attribution:
 
 Обзор этих инструментов можно посмотреть [тут](https://dev.to/adamghill/python-package-manager-comparison-1g98).
 
-Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers.» Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/uv-vscode-python/uv-vscode-python.md) | [↗️](https://harrix.dev/ru/articles/2025/uv-vscode-python/).
+Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers». Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/uv-vscode-python/uv-vscode-python.md) | [↗️](https://harrix.dev/ru/articles/2025/uv-vscode-python/).
 
 ## Кратко
 
@@ -345,7 +345,7 @@ _Рисунок 27 — Вывод графика_
 
 _Рисунок 28 — Ошибка с matplotlib_
 
-Пришлось по [инструкции](https://stackoverflow.com/questions/75824703/matplotlib-importerror-dll-load-failed-while-importing-cext) устанавливать `rye add msvc-runtime` и [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) (устанавливал летом 2024 [vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe)) и перезапускать VSCode.
+Пришлось по [инструкции](https://stackoverflow.com/questions/75824703/matplotlib-importerror-dll-load-failed-while-importing-cext) устанавливать `rye add msvc-runtime` и [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) (устанавливал летом 2024 [`vc_redist.x64.exe`](https://aka.ms/vs/17/release/vc_redist.x64.exe)) и перезапускать VSCode.
 
 Если вам нужны в проекте библиотеки для разработки, то есть они не будут нужны потом пользователю вашей библиотеки, если вы её будете публиковать, то устанавливаем их с параметром `--dev`. Например, вам в самом проекте при его написании надо форматировать код с помощью библиотеки [black](https://pypi.org/project/black/). Вам эта библиотека нужна как разработчику библиотеки, но пользователям вашего проекта не нужна. Тогда устанавливаем его вот так:
 
@@ -500,7 +500,7 @@ _Рисунок 38 — Создание папки tests через правый
 
 В неё создайте файл, например, `test_main.py`:
 
-![Созданный файл test_main.py](img/test_03.png)
+![Созданный файл `test_main.py`](img/test_03.png)
 
 _Рисунок 39 — Созданный файл test_main.py_
 
@@ -541,7 +541,6 @@ def test_multiply_20():
 def test_multiply_30():
     re = multiply_30(2)
     assert re == 60
-
 ```
 
 Функции тестов должны также начинаться с `test_`.
@@ -648,7 +647,7 @@ rye pin 3.11.9
 rye sync
 ```
 
-Посмотреть на последнюю версию Python, на которую вы хотите обновиться можно на сайтах [python.org](https://www.python.org/downloads/windows/) или [python-build-standalone](https://github.com/indygreg/python-build-standalone/releases).
+Посмотреть на последнюю версию Python, на которую вы хотите обновиться можно на сайтах [Python.org](https://www.python.org/downloads/windows/) или [python-build-standalone](https://github.com/indygreg/python-build-standalone/releases).
 
 ## Сборка EXE файла
 

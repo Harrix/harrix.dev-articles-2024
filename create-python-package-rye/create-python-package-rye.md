@@ -57,7 +57,7 @@ attribution:
 
 </details>
 
-Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers.» Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/create-python-package-rye/create-python-package-rye.md) | [↗️](https://harrix.dev/ru/articles/2025/create-python-package-rye/).
+Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers». Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/create-python-package-rye/create-python-package-rye.md) | [↗️](https://harrix.dev/ru/articles/2025/create-python-package-rye/).
 
 Пакет, созданный в рамках этой статьи:
 
@@ -142,7 +142,7 @@ def test_numpy():
 
 Для этого создаем файл `functions.py` (у вас он будет называться по другому) в в папке `src\harrix_test_package` и поместим вышеприведенный код:
 
-![Файл functions.py](img/project_03.png)
+![Файл `functions.py`](img/project_03.png)
 
 _Рисунок 4 — Файл functions.py_
 
@@ -218,7 +218,7 @@ packages = ["src/harrix_test_package"]
 
 Параметры `name`, `description`, `Homepage`, `authors` поменяйте под себя. Раздел `project.urls` добавил вручную, так что, если у вас нет страницы проекта, то можно удалить. Аналогично со строкой `license = {file = "LICENSE"}`.
 
-![Файл pyproject.toml](img/toml.png)
+![Файл `pyproject.toml`](img/toml.png)
 
 _Рисунок 6 — Файл pyproject.toml_
 
@@ -279,7 +279,7 @@ print(h.multiply_2(2))
 ```
 ````
 
-![Файл README.md](img/readme.png)
+![Файл `README.md`](img/readme.png)
 
 _Рисунок 8 — Файл README.md_
 
@@ -490,7 +490,6 @@ def test_test_numpy():
 def test_multiply_20():
     re = h.multiply_20(2)
     assert re == 40
-
 ```
 
 Теперь надо запустить тесты:
@@ -534,7 +533,6 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/harrix_test_package"]
-
 ```
 
 Собираем и публикуем пакет:
