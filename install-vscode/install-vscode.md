@@ -1293,9 +1293,9 @@ _Рисунок 122 — Открытая папка в VSCode_
 python -m venv .venv
 ```
 
-![Ввод команды Python -m venv venv](img/virtual_environment_02.png)
+![Ввод команды `Python -m venv venv`](img/virtual_environment_02.png)
 
-_Рисунок 123 — Ввод команды Python -m venv venv_
+_Рисунок 123 — Ввод команды `Python -m venv venv`_
 
 Надеюсь, что вы понимаете, что в терминале вы должны находиться в папке, в которой вы хотите создать виртуальную среду.
 
@@ -1497,7 +1497,7 @@ print("Сумма =",     c)
 
 _Рисунок 145 — Вызов команды Format Document_
 
-Будет преложено установить один из трех плагинов: `autopep8`, `black`, `yapf`
+Будет преложено установить один из трех плагинов: `autopep8`, `black`, `yapf`:
 
 ![Выбор плагина](img/format_02.png)
 
