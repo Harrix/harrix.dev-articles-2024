@@ -566,7 +566,7 @@ _Рисунок 24 — Обновление пакета_
 
 Считаем, что [Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) | [↗️](https://harrix.dev/ru/articles/2021/install-python/), [Git](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-git/install-git.md) | [↗️](https://harrix.dev/ru/articles/2021/install-git/), [Rye](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/rye-vscode-python/rye-vscode-python.md) | [↗️](https://harrix.dev/ru/articles/2023/rye-vscode-python/) и VSCode у вас установлены на новой машине.
 
-Cклонировать проект можно такой командой:
+Склонировать проект можно такой командой:
 
 ```shell
 mkdir c:\projects

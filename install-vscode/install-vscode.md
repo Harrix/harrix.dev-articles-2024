@@ -194,7 +194,7 @@ _Рисунок 8 — Запущенное приложение_
 
 _Рисунок 9 — Раздел расширений_
 
-Мне нравится тема [Flat UI](https://marketplace.visualstudio.com/items?itemName=lkytal.FlatUI), поэтому в поиске вбиваю тему и устанавливаю её.
+Мне нравится тема [Flat UI](https://marketplace.visualstudio.com/items?itemName=lkytal.FlatUI), поэтому в поиске вбиваю тему и устанавливаю её:
 
 ![Установка темы](img/theme_02.png)
 
