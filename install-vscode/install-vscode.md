@@ -799,7 +799,7 @@ _Рисунок 70 — Пример использования сниппета_
 
 ## Проверка орфографии
 
-Для проверки орфографии нужно установить расширение [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) и [Russian — Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-russian).
+Для проверки орфографии нужно установить расширение [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) и [Russian — Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-russian):
 
 ![Установка расширений](img/code-spell-checker_01.png)
 
