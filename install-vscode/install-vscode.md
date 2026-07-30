@@ -990,7 +990,7 @@ _Рисунок 90 — Пример работы плагина_
 
 ### SVG Viewer
 
-[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer) — просмотрщик SVG изображений.
+[SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer) — просмотрщик SVG изображений:
 
 ![Кнопка просмотра SVG](img/svg-viewer_01.png)
 
