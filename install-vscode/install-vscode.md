@@ -1657,18 +1657,19 @@ int main() {
 Пример формулы:
 
 $$
-\tag{1} x+y^{2x}
+\tag{1} x + y^{2x}
 $$
 
 Пример более сложной формулы:
 
 $$
 \def\arraystretch{1.5}
-   \begin{array}{c:c:c}
-   a & b & c \\ \hline
-   d & e & f \\
-   \hdashline
-   g & h & i
+\begin{array}{c:c:c}
+  a & b & c \\
+  \hline
+  d & e & f \\
+  \hdashline
+  g & h & i
 \end{array}
 $$
 

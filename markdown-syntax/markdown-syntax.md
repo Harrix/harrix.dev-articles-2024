@@ -477,23 +477,23 @@ int main() {
 Пример формулы с номером:
 
 $$
-z = x+y^{2x} \tag{1}
+z = x + y^{2x} \tag{1}
 $$
 
 Примеры более сложных формул:
 
 $$
 \begin{array}{c:c:c}
-   a & b & c \\
-   \hline
-   d & e & f \\
-   \hdashline
-   g & h & i
+  a & b & c \\
+  \hline
+  d & e & f \\
+  \hdashline
+  g & h & i
 \end{array}
 $$
 
 $$
-M=\begin{bmatrix}
+M = \begin{bmatrix}
   1 & 2 & 1 \\
   3 & 0 & 1 \\
   0 & 2 & 4
@@ -677,7 +677,7 @@ graph TD;
 ### Сноски (Footnotes)
 
 ```markdown
-Github может отображать сноски[^1]. Об этом можно почитать в официальной документации[^2].
+GitHub может отображать сноски[^1]. Об этом можно почитать в официальной документации[^2].
 
 [^1]: [Footnotes now supported in Markdown fields](https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/)
 
