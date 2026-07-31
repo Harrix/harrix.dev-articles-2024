@@ -268,13 +268,15 @@ _Рисунок 1 — Изображение_
 
 [![Изображение со ссылкой](img/image.png)](https://github.com)
 
+_Рисунок 2 — Изображение со ссылкой_
+
 ![SVG изображение](img/image.svg)
 
-_Рисунок 2 — SVG изображение_
+_Рисунок 3 — SVG изображение_
 
 ![Логотип GitHub](https://github.githubassets.com/images/modules/site/icons/footer/github-logo.svg)
 
-_Рисунок 3 — Логотип GitHub_
+_Рисунок 4 — Логотип GitHub_
 
 ### Код
 
@@ -705,5 +707,7 @@ GitHub может отображать сноски[^1]. Об этом можн�
 ```
 
 [![Rick Astley — Never Gonna Give You Up](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+_Рисунок 5 — Rick Astley — Never Gonna Give You Up_
 
 `\` в конце строк как break
