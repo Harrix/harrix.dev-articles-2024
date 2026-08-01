@@ -1900,7 +1900,7 @@ _Рисунок 178 — Команда Settings Sync in On_
 
 _Рисунок 179 — Выход из аккаунта_
 
-TODO бэкап настроек https://code.visualstudio.com/docs/editor/settings-sync
+TODO бэкап настроек <https://code.visualstudio.com/docs/editor/settings-sync>
 
 TODO shift + alt выделение мышкой нескольких строк
 
