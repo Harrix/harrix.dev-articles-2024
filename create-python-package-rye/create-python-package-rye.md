@@ -390,7 +390,7 @@ _Рисунок 19 — Папка dist_
 
 ## Использование пакета, опубликованного на PyPi
 
-Для проверки опубликованного пакета создаем новый Python проект с использованием Rye (например, с именем `test`) со своим виртуальным окружением, куда установлю опубликованный пакет. Можно сделать [обычным способом](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/rye-vscode-python/rye-vscode-python.md) | [↗️](https://harrix.dev/ru/articles/2024/rye-vscode-python.md/), а можно через консоль с открытием проекта в VSCode. Привожу код для Windows через PowerShell:
+Для проверки опубликованного пакета создаем новый Python проект с использованием Rye (например, с именем `test`) со своим виртуальным окружением, куда установлю опубликованный пакет. Можно сделать обычным способом [Установка и работа с Rye (Python) в VSCode](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/rye-vscode-python/rye-vscode-python.md) | [↗️](https://harrix.dev/ru/articles/2024/rye-vscode-python.md/), а можно через консоль с открытием проекта в VSCode. Привожу код для Windows через PowerShell:
 
 ```shell
 cd C:\python-projects

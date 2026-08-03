@@ -11,7 +11,7 @@ author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 permalink-source: https://github.com/Harrix/harrix.dev-articles-2024/blob/main/hatch-vscode-python/hatch-vscode-python.md
-permalink: https://harrix.dev/ru/articles/2023/hatch-vscode-python/
+permalink: https://harrix.dev/ru/articles/2024/hatch-vscode-python/
 lang: ru
 attribution:
   - author: Python Software Foundation
@@ -62,7 +62,7 @@ attribution:
 
 Разумеется, нужен Python. Если его нет, то смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) | [↗️](https://harrix.dev/ru/articles/2021/install-python/).
 
-Нужен VSCode. Если его нет, то смотрите статью [Установка Visual Studio Code (простая)](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-vscode-simple/install-vscode-simple.md) | [↗️](https://harrix.dev/ru/articles/2021/install-vscode-simple/).
+Нужен VSCode. Если его нет, то смотрите статью [Установка Visual Studio Code (простая) и открытие Markdown](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-vscode-simple/install-vscode-simple.md) | [↗️](https://harrix.dev/ru/articles/2021/install-vscode-simple/).
 
 Нужно расширение Python в VScode:
 
