@@ -57,7 +57,7 @@ attribution:
 
 </details>
 
-Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers». Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2025/blob/main/create-python-package-rye/create-python-package-rye.md) | [↗️](https://harrix.dev/ru/articles/2025/create-python-package-rye/).
+Итак, в [Rye](https://github.com/astral-sh/rye) появилось сообщение: «If you're getting started with Rye, consider uv, the successor project from the same maintainers». Так что вот только что перешел на Rye, а теперь надо переходить на [uv](https://github.com/Harrix/harrix.dev-articles-2024/blob/main/create-python-package-rye/create-python-package-rye.md) | [↗️](https://harrix.dev/ru/articles/2024/create-python-package-rye/).
 
 Пакет, созданный в рамках этой статьи:
 
